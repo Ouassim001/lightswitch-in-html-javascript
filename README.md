@@ -1,1 +1,1 @@
-# lightswitch-and-html-javascript
+# lightswitch-in-html-javascript
