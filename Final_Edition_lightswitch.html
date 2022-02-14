@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<title>Enable Dark mode</title>
+<html>
+<head>
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+<style>
+body {
+  padding: 20px;
+  background-color: white;
+  color: rgba(26, 26, 26, 0.952);
+  font-size: 20px;
+}
+
+.dark-mode {
+  background-color: rgba(26, 26, 26, 0.952);
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<h1>Enable Dark Mode</h1> 
+<img src="html.png" alt="html5" width="200" height="200">
+
+
+<button onclick="toggleFunction()">Dark Mode</button>
+
+
+<script>
+function toggleFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+</body>
+</html>
